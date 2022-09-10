@@ -1,0 +1,82 @@
+.team {
+  width: 3.07rem;
+  height: 1.81rem;
+  margin-bottom: 0.16rem;
+  box-sizing: border-box;
+  border: 1px solid #e4e7ec;
+  border-radius: 4px;
+  cursor: pointer;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .main {
+    width: 0.36rem;
+    height: 0.36rem;
+    margin-right: 0.09rem;
+  }
+  .middle {
+    flex: 1;
+  }
+  .icon-star {
+    width: 0.16rem;
+    height: 0.16rem;
+  }
+  .icon-campaign {
+    margin-right: .09rem;
+    width: 0.16rem;
+    height: 0.16rem;
+    filter: invert(0%) sepia(1%) saturate(7495%) hue-rotate(290deg) brightness(0%) contrast(100%);
+  }
+  .icon-leads {
+    margin-left: .13rem;
+    margin-right: .05rem;
+    width: 0.16rem;
+    height: 0.16rem;
+    filter: invert(0%) sepia(1%) saturate(7495%) hue-rotate(290deg) brightness(0%) contrast(100%);
+    
+  }
+  .row-1,
+  .row-2,
+  .row-3 {
+    box-sizing: border-box;
+    padding-left: 0.16rem;
+    padding-right: 0.16rem;
+  }
+  .row-1 {
+    padding-top: 0.16rem;
+    text-align: left;
+    justify-content: left;
+    .created_at {
+      font-size: 0.13rem;
+      color: #565656;
+
+      mix-blend-mode: normal;
+      opacity: 0.5;
+    }
+  }
+  .row-2 {
+    font-size: 0.14rem;
+    margin-top: 0.18rem;
+    text-align: left;
+    height: 0.34rem;
+    width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .row-3 {
+    font-size: 0.13rem;
+    justify-content: left;
+    
+  }
+  .gap {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #e4e7ec;
+    margin-top: 0.15rem;
+    margin-bottom: 0.22rem;
+  }
+}

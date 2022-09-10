@@ -1,0 +1,59 @@
+.activity {
+  position: relative;
+  background-color: #ffffff;
+  width: 3.16rem;
+  margin-left: 0.33rem;
+  font-size: 0.13rem;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05), 0px 0px 30px rgba(0, 0, 0, 0.1);
+  height: 4.6rem;
+  
+  .title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 0.68rem;
+    padding: 0 0.29rem;
+    border-bottom: 1px solid #efefef;
+    font-size: 0.18rem;
+    text-align: left;
+    line-height: 0.68rem;
+  }
+  .activity-list {
+    box-sizing: border-box;
+    padding: 0.93rem 0.29rem 0 0.29rem;
+    overflow-y: scroll;
+  }
+  .activity-detail {
+    justify-content: left;
+    margin-bottom: 0.15rem;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    .avatar-wrap {
+      width: 0.36rem;
+      height: 0.36rem;
+      border-radius: 0.18rem;
+      overflow: hidden;
+    }
+    .right {
+      text-align: left;
+      margin-left: 0.09rem;
+      font-size: 0.14rem;
+      line-height: .17rem;
+      .created-at {
+        margin-top: 0.05rem;
+        font-size: 0.13rem;
+        color: #565656;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+      }
+      .name {
+        font-weight: bold;
+      }
+    }
+  }
+}

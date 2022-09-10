@@ -1,0 +1,43 @@
+.nav-bar {
+  z-index: 9;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 0.8rem;
+  background-color: #042235;
+  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.5),
+    inset -4px 0px 4px rgba(2, 15, 24, 0.569466);
+
+    img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      object-fit: contain;
+    }
+
+  .logo {
+    
+    box-sizing: border-box;
+    width: 0.8rem;
+    height: 0.8rem;
+    padding: 30%;
+  }
+  .btn{
+    box-sizing: border-box;
+    width: 0.8rem;
+    height: 0.8rem;
+    padding: 0.26rem;
+    cursor: pointer;
+    &:hover{
+        background-color: #2995DA;
+    }
+  }
+  .img-wrap{
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+}
