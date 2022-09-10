@@ -3,9 +3,10 @@
   flex-direction: row;
 }
 .teams {
+  overflow: scroll;
   height: 100vh;
   min-width: 1200px;
-  overflow: scroll;
+  min-height: 9rem;
   background-color: #e5e5e5;
   .content-wrap {
     padding-left: 0.8rem;
@@ -42,13 +43,14 @@
     }
     .teams-wrap {
       overflow-y: scroll;
+      max-height: 55vh;
       box-sizing: border-box;
       width: 100%;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
       padding-left: 0.27rem;
-      padding-right: 0.27rem;
+      // padding-right: 0.27rem;
       padding-top: 0.305rem;
       justify-content: left;
       flex: 1;
